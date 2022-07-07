@@ -5,6 +5,7 @@ import necesse.inventory.item.Item;
 
 public class MagicalCrops extends Item {
     protected String cropTextureName;
+
     public MagicalCrops(int stackSize) {
         super(stackSize);
     }

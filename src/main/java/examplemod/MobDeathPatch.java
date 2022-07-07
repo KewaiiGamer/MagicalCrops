@@ -3,13 +3,11 @@ package examplemod;
 import necesse.engine.GameEvents;
 import necesse.engine.events.loot.MobLootTableDropsEvent;
 import necesse.engine.modLoader.annotations.ModMethodPatch;
-import necesse.engine.network.server.ServerClient;
 import necesse.engine.registries.ItemRegistry;
 import necesse.engine.util.GameMath;
 import necesse.engine.util.GameRandom;
 import necesse.entity.mobs.Attacker;
 import necesse.entity.mobs.Mob;
-import necesse.entity.mobs.PlayerMob;
 import necesse.entity.pickup.ItemPickupEntity;
 import necesse.inventory.InventoryItem;
 import net.bytebuddy.asm.Advice;
@@ -17,7 +15,6 @@ import net.bytebuddy.asm.Advice;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.Iterator;
 
 @ModMethodPatch(
         target = Mob.class,
