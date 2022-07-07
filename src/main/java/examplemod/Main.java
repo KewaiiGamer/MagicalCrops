@@ -1,6 +1,6 @@
 package examplemod;
 
-import examplemod.items.ResourceCrop;
+import examplemod.items.MagicalCrops;
 import necesse.engine.modLoader.annotations.ModEntry;
 import necesse.engine.registries.ItemRegistry;
 import necesse.engine.registries.RecipeTechRegistry;
@@ -20,11 +20,11 @@ public class Main {
         SeedObject.registerSeedObjects("kew_gold_seed", "kew_gold_crop", "kew_gold_essence", 1, 0, 5, 4200.0F, 6000.0F, new Color(90, 61, 48), 1.0F);
         SeedObject.registerSeedObjects("kew_tier_1_seed", "kew_tier_1_crop", "kew_tier_1_essence", 1, 0, 5, 4200.0F, 6000.0F, new Color(90, 61, 48), 1.0F);
         SeedObject.registerSeedObjects("kew_tier_2_seed", "kew_tier_2_crop", "kew_tier_2_essence", 1, 0, 5, 4200.0F, 6000.0F, new Color(90, 61, 48), 1.0F);
-        ItemRegistry.registerItem("kew_copper_essence", (new ResourceCrop(100).cropTexture("kew_copper_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
-        ItemRegistry.registerItem("kew_iron_essence", (new ResourceCrop(100).cropTexture("kew_iron_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
-        ItemRegistry.registerItem("kew_gold_essence", (new ResourceCrop(100).cropTexture("kew_gold_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
-        ItemRegistry.registerItem("kew_tier_1_essence", (new ResourceCrop(100).cropTexture("kew_tier_1_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
-        ItemRegistry.registerItem("kew_tier_2_essence", (new ResourceCrop(100).cropTexture("kew_tier_2_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
+        ItemRegistry.registerItem("kew_copper_essence", (new MagicalCrops(100).cropTexture("kew_copper_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
+        ItemRegistry.registerItem("kew_iron_essence", (new MagicalCrops(100).cropTexture("kew_iron_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
+        ItemRegistry.registerItem("kew_gold_essence", (new MagicalCrops(100).cropTexture("kew_gold_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
+        ItemRegistry.registerItem("kew_tier_1_essence", (new MagicalCrops(100).cropTexture("kew_tier_1_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
+        ItemRegistry.registerItem("kew_tier_2_essence", (new MagicalCrops(100).cropTexture("kew_tier_2_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
 
     }
 

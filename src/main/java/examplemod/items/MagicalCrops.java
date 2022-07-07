@@ -3,9 +3,9 @@ package examplemod.items;
 import necesse.gfx.gameTexture.GameTexture;
 import necesse.inventory.item.Item;
 
-public class ResourceCrop extends Item {
+public class MagicalCrops extends Item {
     protected String cropTextureName;
-    public ResourceCrop(int stackSize) {
+    public MagicalCrops(int stackSize) {
         super(stackSize);
     }
 
@@ -18,7 +18,7 @@ public class ResourceCrop extends Item {
         }
     }
 
-    public ResourceCrop cropTexture(String textureName) {
+    public MagicalCrops cropTexture(String textureName) {
         this.cropTextureName = textureName;
         return this;
     }
