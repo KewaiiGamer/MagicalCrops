@@ -1,19 +1,13 @@
-[tile]
-exampletile=Example Tile
-
 [object]
-exampleobject=Example Object
+kew_copper_seed=Copper Seed
+kew_iron_seed=Iron Seed
+kew_gold_seed=Gold Seed
+kew_tier_1_seed=Tier 1 Essence Seed
+kew_tier_2_seed=Tier 2 Essence Seed
 
 [item]
-exampleitem=Example Item
-examplesword=Example Sword
-examplestaff=Example Staff
-
-[itemtooltip]
-examplestafftip=Shoots a homing, piercing projectile
-
-[mob]
-examplemob=Example Mob
-
-[buff]
-examplebuff=Example Buff
+kew_copper_essence=Copper Essence
+kew_iron_essence=Iron Essence
+kew_gold_essence=Gold Essence
+kew_tier_1_essence=Tier 1 Essence
+kew_tier_2_essence=Tier 2 Essence
