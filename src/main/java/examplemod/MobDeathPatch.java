@@ -25,7 +25,7 @@ public class MobDeathPatch {
     @Advice.OnMethodExit
     static void onExit(@Advice.This Mob mob, @Advice.Argument(0) Attacker attacker, @Advice.Argument(1) HashSet<Attacker> attackers) {
         if (mob.isHostile) {
-            if (attacker.getAttackOwner().isPlayer) {
+            if (attacker != null && attacker.getAttackOwner() != null && attacker.getAttackOwner().isPlayer) {
                 int max = 100;
                 int min = 1;
                 int range = max - min + 1;
