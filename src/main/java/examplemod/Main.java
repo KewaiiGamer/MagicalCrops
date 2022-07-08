@@ -48,6 +48,15 @@ public class Main {
                 }
         ));
         Recipes.registerModRecipe(new Recipe(
+                "kew_tier_2_seed",
+                1,
+                RecipeTechRegistry.DEMONIC,
+                new Ingredient[]{
+                        new Ingredient("kew_tier_2_essence", 8),
+                        new Ingredient("kew_tier_1_seed", 1),
+                }
+        ));
+        Recipes.registerModRecipe(new Recipe(
                 "kew_copper_seed",
                 1,
                 RecipeTechRegistry.DEMONIC,
