@@ -18,6 +18,10 @@ public class Main {
         SeedObject.registerSeedObjects("kew_copper_seed", "kew_copper_crop", "kew_copper_essence", 1, 0, 5, 4200.0F, 6000.0F, new Color(90, 61, 48), 1.0F);
         SeedObject.registerSeedObjects("kew_iron_seed", "kew_iron_crop", "kew_iron_essence", 1, 0, 5, 4200.0F, 6000.0F, new Color(90, 61, 48), 1.0F);
         SeedObject.registerSeedObjects("kew_gold_seed", "kew_gold_crop", "kew_gold_essence", 1, 0, 5, 4200.0F, 6000.0F, new Color(90, 61, 48), 1.0F);
+        SeedObject.registerSeedObjects("kew_fire_seed", "kew_fire_crop", "kew_fire_essence", 1, 0, 5, 4200.0F, 6000.0F, new Color(90, 61, 48), 1.0F);
+        SeedObject.registerSeedObjects("kew_water_seed", "kew_water_crop", "kew_water_essence", 1, 0, 5, 4200.0F, 6000.0F, new Color(90, 61, 48), 1.0F);
+        SeedObject.registerSeedObjects("kew_wood_seed", "kew_wood_crop", "kew_wood_essence", 1, 0, 5, 4200.0F, 6000.0F, new Color(90, 61, 48), 1.0F);
+        SeedObject.registerSeedObjects("kew_stone_seed", "kew_stone_crop", "kew_stone_essence", 1, 0, 5, 4200.0F, 6000.0F, new Color(90, 61, 48), 1.0F);
         SeedObject.registerSeedObjects("kew_tier_1_seed", "kew_tier_1_crop", "kew_tier_1_essence", 1, 0, 5, 4200.0F, 6000.0F, new Color(90, 61, 48), 1.0F);
         SeedObject.registerSeedObjects("kew_tier_2_seed", "kew_tier_2_crop", "kew_tier_2_essence", 1, 0, 5, 4200.0F, 6000.0F, new Color(90, 61, 48), 1.0F);
         ItemRegistry.registerItem("kew_copper_essence", (new MagicalCrops(100).cropTexture("kew_copper_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
@@ -25,7 +29,10 @@ public class Main {
         ItemRegistry.registerItem("kew_gold_essence", (new MagicalCrops(100).cropTexture("kew_gold_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
         ItemRegistry.registerItem("kew_tier_1_essence", (new MagicalCrops(100).cropTexture("kew_tier_1_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
         ItemRegistry.registerItem("kew_tier_2_essence", (new MagicalCrops(100).cropTexture("kew_tier_2_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
-
+        ItemRegistry.registerItem("kew_fire_essence", (new MagicalCrops(100).cropTexture("kew_fire_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
+        ItemRegistry.registerItem("kew_water_essence", (new MagicalCrops(100).cropTexture("kew_water_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
+        ItemRegistry.registerItem("kew_wood_essence", (new MagicalCrops(100).cropTexture("kew_wood_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
+        ItemRegistry.registerItem("kew_stone_essence", (new MagicalCrops(100).cropTexture("kew_stone_crop").addGlobalIngredient("anycompostable")), 2.0F, true);
     }
 
     public void postInit() {
@@ -87,6 +94,86 @@ public class Main {
                 }
         ));
         Recipes.registerModRecipe(new Recipe(
+                "kew_water_seed",
+                1,
+                RecipeTechRegistry.DEMONIC,
+                new Ingredient[]{
+                        new Ingredient("kew_tier_1_essence", 4),
+                        new Ingredient("kew_tier_1_seed", 1),
+                        new Ingredient("watertile", 4)
+                }
+        ));
+        Recipes.registerModRecipe(new Recipe(
+                "kew_fire_seed",
+                1,
+                RecipeTechRegistry.DEMONIC,
+                new Ingredient[]{
+                        new Ingredient("kew_tier_1_essence", 4),
+                        new Ingredient("kew_tier_1_seed", 1),
+                        new Ingredient("lavatile", 4)
+                }
+        ));
+        Recipes.registerModRecipe(new Recipe(
+                "kew_wood_seed",
+                1,
+                RecipeTechRegistry.DEMONIC,
+                new Ingredient[]{
+                        new Ingredient("kew_tier_1_essence", 4),
+                        new Ingredient("kew_tier_1_seed", 1),
+                        new Ingredient("oaklog", 4)
+                }
+        ));
+        Recipes.registerModRecipe(new Recipe(
+                "kew_wood_seed",
+                1,
+                RecipeTechRegistry.DEMONIC,
+                new Ingredient[]{
+                        new Ingredient("kew_tier_1_essence", 4),
+                        new Ingredient("kew_tier_1_seed", 1),
+                        new Ingredient("palmlog", 4)
+                }
+        ));
+        Recipes.registerModRecipe(new Recipe(
+                "kew_wood_seed",
+                1,
+                RecipeTechRegistry.DEMONIC,
+                new Ingredient[]{
+                        new Ingredient("kew_tier_1_essence", 4),
+                        new Ingredient("kew_tier_1_seed", 1),
+                        new Ingredient("pinelog", 4)
+                }
+        ));
+        Recipes.registerModRecipe(new Recipe(
+                "kew_wood_seed",
+                1,
+                RecipeTechRegistry.DEMONIC,
+                new Ingredient[]{
+                        new Ingredient("kew_tier_1_essence", 4),
+                        new Ingredient("kew_tier_1_seed", 1),
+                        new Ingredient("sprucelog", 4)
+                }
+        ));
+        Recipes.registerModRecipe(new Recipe(
+                "kew_wood_seed",
+                1,
+                RecipeTechRegistry.DEMONIC,
+                new Ingredient[]{
+                        new Ingredient("kew_tier_1_essence", 4),
+                        new Ingredient("kew_tier_1_seed", 1),
+                        new Ingredient("willowlog", 4)
+                }
+        ));
+        Recipes.registerModRecipe(new Recipe(
+                "kew_stone_seed",
+                1,
+                RecipeTechRegistry.DEMONIC,
+                new Ingredient[]{
+                        new Ingredient("kew_tier_1_essence", 4),
+                        new Ingredient("kew_tier_1_seed", 1),
+                        new Ingredient("stone", 4)
+                }
+        ));
+        Recipes.registerModRecipe(new Recipe(
                 "copperore",
                 1,
                 RecipeTechRegistry.FORGE,
@@ -108,6 +195,16 @@ public class Main {
                 RecipeTechRegistry.FORGE,
                 new Ingredient[]{
                         new Ingredient("kew_gold_essence", 4)
+                }
+        ));
+        Recipes.registerModRecipe(new Recipe(
+                "stone",
+                1,
+                RecipeTechRegistry.DEMONIC,
+                new Ingredient[]{
+                        new Ingredient("kew_tier_1_essence", 4),
+                        new Ingredient("kew_tier_1_seed", 1),
+                        new Ingredient("stone", 4)
                 }
         ));
     }

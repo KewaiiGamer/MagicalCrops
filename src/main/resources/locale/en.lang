@@ -4,6 +4,10 @@ kew_iron_seed=Iron Seed
 kew_gold_seed=Gold Seed
 kew_tier_1_seed=Tier 1 Essence Seed
 kew_tier_2_seed=Tier 2 Essence Seed
+kew_fire_seed=Fire Seed
+kew_water_seed=Water Seed
+kew_stone_seed=Stone Seed
+kew_wood_seed=Wood Seed
 
 [item]
 kew_copper_essence=Copper Essence
@@ -11,3 +15,7 @@ kew_iron_essence=Iron Essence
 kew_gold_essence=Gold Essence
 kew_tier_1_essence=Tier 1 Essence
 kew_tier_2_essence=Tier 2 Essence
+kew_fire_essence=Fire Essence
+kew_water_essence=Water Essence
+kew_stone_essence=Stone Essence
+kew_wood_essence=Wood Essence
