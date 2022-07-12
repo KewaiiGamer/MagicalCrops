@@ -1,0 +1,21 @@
+[object]
+kew_copper_seed=铜种子
+kew_iron_seed=铁种子
+kew_gold_seed=黄金种子
+kew_tier_1_seed=1 级精华种子
+kew_tier_2_seed=2级精华种子
+kew_fire_seed=火种
+kew_water_seed=水种子
+kew_stone_seed=石种
+kew_wood_seed=木种子
+
+[item]
+kew_copper_essence=铜精华
+kew_iron_essence=铁精华
+kew_gold_essence=黄金精华
+kew_tier_1_essence=1 级精华
+kew_tier_2_essence=2 级精华
+kew_fire_essence=火焰精华
+kew_water_essence=水精华
+kew_stone_essence=石头精华
+kew_wood_essence=木精

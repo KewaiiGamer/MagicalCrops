@@ -1,0 +1,21 @@
+[object]
+kew_copper_seed=Graine de Cuivre
+kew_iron_seed=Graine de Fer
+kew_gold_seed=Graine D'or
+kew_tier_1_seed=Graine D'essence de niveau 1
+kew_tier_2_seed=Graine D'essence de niveau 2
+kew_fire_seed=Graine de Feu
+kew_water_seed=Graine E'eau
+kew_stone_seed=Graine de Pierre
+kew_wood_seed=Graine de Bois
+
+[item]
+kew_copper_essence=Essence de Cuivre
+kew_iron_essence=Essence de Fer
+kew_gold_essence=Essence D'or
+kew_tier_1_essence=Essence de Niveau 1
+kew_tier_2_essence=Essence de Niveau 2
+kew_fire_essence=Essence de Feu
+kew_water_essence=Essence D'eau
+kew_stone_essence=Essence de Pierre
+kew_wood_essence=Essence de Bois
