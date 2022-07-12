@@ -1,0 +1,21 @@
+[object]
+kew_copper_seed=Semilla de Cobre
+kew_iron_seed=Semilla de Hierro
+kew_gold_seed=Semilla de Oro
+kew_tier_1_seed=Semilla de Esencia de Nivel 1
+kew_tier_2_seed=Semilla de Ssencia de Nivel 2
+kew_fire_seed=Semilla de Fuego
+kew_water_seed=Semilla de Agua
+kew_stone_seed=Semilla de Piedra
+kew_wood_seed=Semilla de Madera
+
+[item]
+kew_copper_essence=Esencia de Cobre
+kew_iron_essence=Esencia de Hierro
+kew_gold_essence=Esencia Dorada
+kew_tier_1_essence=Esencia de Nivel 1
+kew_tier_2_essence=Esencia de Nivel 2
+kew_fire_essence=Esencia de Fuego
+kew_water_essence=Esencia de Agua
+kew_stone_essence=Esencia de Piedra
+kew_wood_essence=Esencia de Madera
