@@ -39,7 +39,7 @@ public class Main {
         Recipes.registerModRecipe(new Recipe(
                 "kew_tier_2_essence",
                 1,
-                RecipeTechRegistry.DEMONIC,
+                RecipeTechRegistry.DEMONIC_WORKSTATION,
                 new Ingredient[]{
                         new Ingredient("kew_tier_1_essence", 8),
                         new Ingredient("demonicbar", 4)
@@ -48,7 +48,7 @@ public class Main {
         Recipes.registerModRecipe(new Recipe(
                 "kew_tier_1_seed",
                 1,
-                RecipeTechRegistry.DEMONIC,
+                RecipeTechRegistry.DEMONIC_WORKSTATION,
                 new Ingredient[]{
                         new Ingredient("kew_tier_1_essence", 8),
                         new Ingredient("grassseed", 1),
@@ -57,7 +57,7 @@ public class Main {
         Recipes.registerModRecipe(new Recipe(
                 "kew_tier_2_seed",
                 1,
-                RecipeTechRegistry.DEMONIC,
+                RecipeTechRegistry.DEMONIC_WORKSTATION,
                 new Ingredient[]{
                         new Ingredient("kew_tier_2_essence", 8),
                         new Ingredient("kew_tier_1_seed", 1),
@@ -66,7 +66,7 @@ public class Main {
         Recipes.registerModRecipe(new Recipe(
                 "kew_copper_seed",
                 1,
-                RecipeTechRegistry.DEMONIC,
+                RecipeTechRegistry.DEMONIC_WORKSTATION,
                 new Ingredient[]{
                         new Ingredient("kew_tier_2_essence", 4),
                         new Ingredient("kew_tier_2_seed", 1),
@@ -76,7 +76,7 @@ public class Main {
         Recipes.registerModRecipe(new Recipe(
                 "kew_iron_seed",
                 1,
-                RecipeTechRegistry.DEMONIC,
+                RecipeTechRegistry.DEMONIC_WORKSTATION,
                 new Ingredient[]{
                         new Ingredient("kew_tier_2_essence", 4),
                         new Ingredient("kew_tier_2_seed", 1),
@@ -86,7 +86,7 @@ public class Main {
         Recipes.registerModRecipe(new Recipe(
                 "kew_gold_seed",
                 1,
-                RecipeTechRegistry.DEMONIC,
+                RecipeTechRegistry.DEMONIC_WORKSTATION,
                 new Ingredient[]{
                         new Ingredient("kew_tier_2_essence", 4),
                         new Ingredient("kew_tier_2_seed", 1),
@@ -96,7 +96,7 @@ public class Main {
         Recipes.registerModRecipe(new Recipe(
                 "kew_water_seed",
                 1,
-                RecipeTechRegistry.DEMONIC,
+                RecipeTechRegistry.DEMONIC_WORKSTATION,
                 new Ingredient[]{
                         new Ingredient("kew_tier_1_essence", 4),
                         new Ingredient("kew_tier_1_seed", 1),
@@ -106,7 +106,7 @@ public class Main {
         Recipes.registerModRecipe(new Recipe(
                 "kew_fire_seed",
                 1,
-                RecipeTechRegistry.DEMONIC,
+                RecipeTechRegistry.DEMONIC_WORKSTATION,
                 new Ingredient[]{
                         new Ingredient("kew_tier_1_essence", 4),
                         new Ingredient("kew_tier_1_seed", 1),
@@ -116,7 +116,7 @@ public class Main {
         Recipes.registerModRecipe(new Recipe(
                 "kew_wood_seed",
                 1,
-                RecipeTechRegistry.DEMONIC,
+                RecipeTechRegistry.DEMONIC_WORKSTATION,
                 new Ingredient[]{
                         new Ingredient("kew_tier_1_essence", 4),
                         new Ingredient("kew_tier_1_seed", 1),
@@ -126,7 +126,7 @@ public class Main {
         Recipes.registerModRecipe(new Recipe(
                 "kew_wood_seed",
                 1,
-                RecipeTechRegistry.DEMONIC,
+                RecipeTechRegistry.DEMONIC_WORKSTATION,
                 new Ingredient[]{
                         new Ingredient("kew_tier_1_essence", 4),
                         new Ingredient("kew_tier_1_seed", 1),
@@ -136,7 +136,7 @@ public class Main {
         Recipes.registerModRecipe(new Recipe(
                 "kew_wood_seed",
                 1,
-                RecipeTechRegistry.DEMONIC,
+                RecipeTechRegistry.DEMONIC_WORKSTATION,
                 new Ingredient[]{
                         new Ingredient("kew_tier_1_essence", 4),
                         new Ingredient("kew_tier_1_seed", 1),
@@ -146,7 +146,7 @@ public class Main {
         Recipes.registerModRecipe(new Recipe(
                 "kew_wood_seed",
                 1,
-                RecipeTechRegistry.DEMONIC,
+                RecipeTechRegistry.DEMONIC_WORKSTATION,
                 new Ingredient[]{
                         new Ingredient("kew_tier_1_essence", 4),
                         new Ingredient("kew_tier_1_seed", 1),
@@ -156,7 +156,7 @@ public class Main {
         Recipes.registerModRecipe(new Recipe(
                 "kew_wood_seed",
                 1,
-                RecipeTechRegistry.DEMONIC,
+                RecipeTechRegistry.DEMONIC_WORKSTATION,
                 new Ingredient[]{
                         new Ingredient("kew_tier_1_essence", 4),
                         new Ingredient("kew_tier_1_seed", 1),
@@ -166,7 +166,7 @@ public class Main {
         Recipes.registerModRecipe(new Recipe(
                 "kew_stone_seed",
                 1,
-                RecipeTechRegistry.DEMONIC,
+                RecipeTechRegistry.DEMONIC_WORKSTATION,
                 new Ingredient[]{
                         new Ingredient("kew_tier_1_essence", 4),
                         new Ingredient("kew_tier_1_seed", 1),
@@ -200,7 +200,7 @@ public class Main {
         Recipes.registerModRecipe(new Recipe(
                 "stone",
                 1,
-                RecipeTechRegistry.DEMONIC,
+                RecipeTechRegistry.DEMONIC_WORKSTATION,
                 new Ingredient[]{
                         new Ingredient("kew_tier_1_essence", 4),
                         new Ingredient("kew_tier_1_seed", 1),

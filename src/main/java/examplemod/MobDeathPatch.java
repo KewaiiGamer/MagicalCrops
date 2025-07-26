@@ -33,7 +33,7 @@ public class MobDeathPatch {
                 if (rand <= 15) {
                     ArrayList<InventoryItem> drops = new ArrayList<>();
                     drops.add(ItemRegistry.getItem("kew_tier_1_essence").getDefaultLootItem(GameRandom.globalRandom, 1));
-                    mob.getLootTable().addItems(drops, GameRandom.globalRandom, mob);
+                    mob.getLootTable().addItems(drops, GameRandom.globalRandom, 1, mob);
 
                     Point publicLootPosition = mob.getLootDropsPosition(null);
                     publicLootPosition.x = GameMath.limit(publicLootPosition.x, 32, mob.getLevel().width * 32 - 32);
