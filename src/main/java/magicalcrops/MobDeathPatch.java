@@ -1,4 +1,4 @@
-package examplemod;
+package magicalcrops;
 
 import necesse.engine.GameEvents;
 import necesse.engine.events.loot.MobLootTableDropsEvent;

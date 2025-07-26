@@ -1,6 +1,6 @@
-package examplemod;
+package magicalcrops;
 
-import examplemod.items.MagicalCrops;
+import magicalcrops.items.MagicalCrops;
 import necesse.engine.modLoader.annotations.ModEntry;
 import necesse.engine.registries.ItemRegistry;
 import necesse.engine.registries.RecipeTechRegistry;

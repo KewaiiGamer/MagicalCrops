@@ -1,4 +1,4 @@
-package examplemod.items;
+package magicalcrops.items;
 
 import necesse.gfx.gameTexture.GameTexture;
 import necesse.inventory.item.Item;
