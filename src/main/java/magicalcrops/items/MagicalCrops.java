@@ -2,12 +2,13 @@ package magicalcrops.items;
 
 import necesse.gfx.gameTexture.GameTexture;
 import necesse.inventory.item.Item;
+import necesse.inventory.item.matItem.MatItem;
 
-public class MagicalCrops extends Item {
+public class MagicalCrops extends MatItem {
     protected String cropTextureName;
 
-    public MagicalCrops(int stackSize) {
-        super(stackSize);
+    public MagicalCrops(int stackSize, Item.Rarity rarity) {
+        super(stackSize, rarity);
     }
 
     @Override
