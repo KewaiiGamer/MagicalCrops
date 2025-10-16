@@ -36,8 +36,8 @@ public class MobDeathPatch {
                     mob.getLootTable().addItems(drops, GameRandom.globalRandom, 1, mob);
 
                     Point publicLootPosition = mob.getLootDropsPosition(null);
-                    publicLootPosition.x = GameMath.limit(publicLootPosition.x, 32, mob.getLevel().width * 32 - 32);
-                    publicLootPosition.y = GameMath.limit(publicLootPosition.y, 32, mob.getLevel().height * 32 - 32);
+                    publicLootPosition.x = GameMath.limit(publicLootPosition.x, 32, mob.getLevel().tileWidth * 32 - 32);
+                    publicLootPosition.y = GameMath.limit(publicLootPosition.y, 32, mob.getLevel().tileHeight * 32 - 32);
                     MobLootTableDropsEvent dropEvent;
                     GameEvents.triggerEvent(dropEvent = new MobLootTableDropsEvent(mob, publicLootPosition, drops));
                     if (dropEvent.dropPos != null && dropEvent.drops != null) {
