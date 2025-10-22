@@ -108,14 +108,14 @@ public class MagicalCrops extends MatItem {
       Recipes.registerModRecipe(new Recipe(
           getSeedLocale(),
           1,
-          RecipeTechRegistry.TUNGSTEN_WORKSTATION,
+          tech,
           ingredientsFromScript(String.format("{{%s, 4}, {%s, 1}, %s}", getTierEssenceLocale(), getTierSeedLocale(), formatted))
       ));
     } else if (seedType.equals("essence")) {
       Recipes.registerModRecipe(new Recipe(
           getSeedLocale(),
           1,
-          RecipeTechRegistry.TUNGSTEN_WORKSTATION,
+          tech,
           ingredientsFromScript(String.format("{{%s, 8}, {%s, 1}}", getEssenceLocale(), getPreviousTierSeedLocale()))
       ));
     }

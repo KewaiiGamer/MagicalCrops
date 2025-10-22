@@ -14,9 +14,9 @@ public class Main {
 
   public void init() {
     magicalCrops.add(new MagicalCrops(100, Item.Rarity.NORMAL, null, null, "tier_1", "essence", 1, RecipeTechRegistry.WORKSTATION));
-    magicalCrops.add(new MagicalCrops(100, Item.Rarity.COMMON, "copperbar,ironbar,goldbar", null, "tier_2", "essence", 2, RecipeTechRegistry.DEMONIC_WORKSTATION));
-    magicalCrops.add(new MagicalCrops(100, Item.Rarity.UNCOMMON, "demonicbar,ivybar", null, "tier_3", "essence", 3, RecipeTechRegistry.TUNGSTEN_WORKSTATION));
-    magicalCrops.add(new MagicalCrops(100, Item.Rarity.RARE, "ancientfossilbar,myceliumbar,glacialbar,tungstenbar", null, "tier_4", "essence", 4, RecipeTechRegistry.FALLEN_WORKSTATION));
+    magicalCrops.add(new MagicalCrops(100, Item.Rarity.COMMON, "copperbar,ironbar,goldbar", null, "tier_2", "essence", 2, RecipeTechRegistry.WORKSTATION));
+    magicalCrops.add(new MagicalCrops(100, Item.Rarity.UNCOMMON, "demonicbar,ivybar", null, "tier_3", "essence", 3, RecipeTechRegistry.DEMONIC_WORKSTATION));
+    magicalCrops.add(new MagicalCrops(100, Item.Rarity.RARE, "ancientfossilbar,myceliumbar,glacialbar,tungstenbar", null, "tier_4", "essence", 4, RecipeTechRegistry.TUNGSTEN_WORKSTATION));
     magicalCrops.add(new MagicalCrops(100, Item.Rarity.NORMAL, "lavatile", null, "fire", "any", 1, RecipeTechRegistry.WORKSTATION));
     magicalCrops.add(new MagicalCrops(100, Item.Rarity.NORMAL, "watertile", null, "water", "any", 1, RecipeTechRegistry.WORKSTATION));
     magicalCrops.add(new MagicalCrops(100, Item.Rarity.NORMAL, "anylog", "oaklog,sprucelog,pinelog,palmlog,willowlog,birchlog,maplelog", "wood", "any", 1, RecipeTechRegistry.WORKSTATION));
