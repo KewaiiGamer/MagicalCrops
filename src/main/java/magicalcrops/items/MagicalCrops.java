@@ -94,7 +94,7 @@ public class MagicalCrops extends MatItem {
           getEssenceLocale(),
           1,
           tech,
-          ingredientsFromScript(String.format("{{%s, 8}, %s}", getPreviousTierSeedLocale(), formatted))
+          ingredientsFromScript(String.format("{{%s, 8}, %s}", getPreviousTierEssenceLocale(), formatted))
       ));
     }
   }
@@ -147,5 +147,8 @@ public class MagicalCrops extends MatItem {
       return "grassseed";
     }
     return String.format("kew_tier_%s_seed", this.tier - 1);
+  }
+  public String getPreviousTierEssenceLocale() {
+    return String.format("kew_tier_%s_essence", this.tier - 1);
   }
 }
