@@ -24,10 +24,10 @@ public class Main {
     magicalCrops.add(new MagicalCrops(100, Item.Rarity.COMMON, "copperbar", "copperore", "copper", "resource", 2, RecipeTechRegistry.WORKSTATION));
     magicalCrops.add(new MagicalCrops(100, Item.Rarity.COMMON, "ironbar", "ironore", "iron", "resource", 2, RecipeTechRegistry.WORKSTATION));
     magicalCrops.add(new MagicalCrops(100, Item.Rarity.COMMON, "goldbar", "goldore", "gold", "resource", 2, RecipeTechRegistry.WORKSTATION));
-    magicalCrops.add(new MagicalCrops(100, Item.Rarity.UNCOMMON, "ivybar", "ivyore", "ivy", "resource", 3, RecipeTechRegistry.TUNGSTEN_WORKSTATION));
+    magicalCrops.add(new MagicalCrops(100, Item.Rarity.UNCOMMON, "ivybar", "ivyore", "ivy", "resource", 3, RecipeTechRegistry.DEMONIC_WORKSTATION));
     //magicalCrops.add(new MagicalCrops(100, Item.Rarity.UNCOMMON, "demonicbar","demonicbar:16","demonic", "resource", 3, RecipeTechRegistry.TUNGSTEN_WORKSTATION));
-    magicalCrops.add(new MagicalCrops(100, Item.Rarity.RARE, "myceliumbar", "myceliumore:16", "mycelium", "resource", 4, RecipeTechRegistry.DEMONIC_WORKSTATION));
-    magicalCrops.add(new MagicalCrops(100, Item.Rarity.RARE, "ancientfossilbar", "ancientfossilore", "ancient_fossil", "resource", 4, RecipeTechRegistry.DEMONIC_WORKSTATION));
+    magicalCrops.add(new MagicalCrops(100, Item.Rarity.RARE, "myceliumbar", "myceliumore:16", "mycelium", "resource", 4, RecipeTechRegistry.TUNGSTEN_WORKSTATION));
+    magicalCrops.add(new MagicalCrops(100, Item.Rarity.RARE, "ancientfossilbar", "ancientfossilore", "ancient_fossil", "resource", 4, RecipeTechRegistry.TUNGSTEN_WORKSTATION));
     magicalCrops.add(new MagicalCrops(100, Item.Rarity.RARE, "glacialbar", "glacialore", "glacial", "resource", 4, RecipeTechRegistry.TUNGSTEN_WORKSTATION));
     //magicalCrops.add(new MagicalCrops(100, Item.Rarity.RARE, "tungstenbar","tungstenore", "tungsten", "resource", 4, RecipeTechRegistry.FALLEN_WORKSTATION));
     //magicalCrops.add(new MagicalCrops(100, Item.Rarity.EPIC, "nightsteelbar","nightsteelore","nightsteel", "resource", 5, RecipeTechRegistry.FALLEN_WORKSTATION));
