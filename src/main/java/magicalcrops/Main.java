@@ -34,6 +34,8 @@ public class Main {
     addCrop("ancientfossil", 4);
     addCrop("glacial", 4);
     addCrop("tungsten", 4);
+    addCrop("obsidian", 4, "obsidian", "obsidian:16");
+    addCrop("slimeum", 4, "slimeum", "slimeum:16");
     addCrop("spiderite", 4);
 
     //addCrop("nightsteel", 5);
@@ -49,16 +51,19 @@ public class Main {
     }
 
   }
+
   public void addCrop(String crop, int tier, String resources, String outputResources) {
     Tech tech = techFromTier(tier);
     Item.Rarity rarity = rarityFromTier(tier);
     magicalCrops.add(new MagicalCrops(100, rarity, resources, outputResources, crop, seedTypeFromCrop(crop), tier, tech));
   }
+
   public void addCrop(String crop, int tier) {
     Tech tech = techFromTier(tier);
     Item.Rarity rarity = rarityFromTier(tier);
     magicalCrops.add(new MagicalCrops(100, rarity, String.format("%sbar", crop), String.format("%sore", crop), crop, seedTypeFromCrop(crop), tier, tech));
   }
+
   public Tech techFromTier(int tier) {
 
     switch (tier) {
@@ -76,6 +81,7 @@ public class Main {
         return null;
     }
   }
+
   public Item.Rarity rarityFromTier(int tier) {
     switch (tier) {
       case 1:
@@ -92,6 +98,7 @@ public class Main {
         return null;
     }
   }
+
   public String seedTypeFromCrop(String crop) {
     if (crop.contains("tier_")) return "essence";
     if ("wood,stone,fire,water".contains(crop)) return "any";

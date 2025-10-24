@@ -171,6 +171,7 @@ public class MagicalCrops extends MatItem {
     }
     return String.format("kew_tier_%s_seed", this.tier - 1);
   }
+
   public String getPreviousTierEssenceLocale() {
     return String.format("kew_tier_%s_essence", this.tier - 1);
   }
