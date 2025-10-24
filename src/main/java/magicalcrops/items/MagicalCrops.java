@@ -79,8 +79,30 @@ public class MagicalCrops extends MatItem {
 
       if (outputResources == null) return;
       for (String outputResource : outputResources.split(",")) {
+        if (outputResource.startsWith("custom")) {
+          String[] parts = outputResource.replaceFirst("custom:", "").split("=");
+          String input = parts[0];
+          String output = parts[1];
+          String[] inputParts = input.split("\\+");
+          String[] outputParts = output.split(":");
+
+          String ingredients = String.format("{%s}", Arrays.stream(inputParts)
+              .map(s -> {
+                String[] part = s.split(":");
+                return String.format("{%s, %s}", part[0], part[1]);
+              })
+              .collect(Collectors.joining(", ")));
+
+          Recipes.registerModRecipe(new Recipe(
+              outputParts[0],
+              Integer.parseInt(outputParts[1]),
+              seedType.equals("any") ? RecipeTechRegistry.WORKSTATION : RecipeTechRegistry.FORGE,
+              ingredientsFromScript(ingredients)
+          ));
+          continue;
+        }
         String[] parts = outputResource.split(":");
-        Recipes.registerModRecipe(new Recipe(
+          Recipes.registerModRecipe(new Recipe(
             parts[0],
             1,
             seedType.equals("any") ? RecipeTechRegistry.WORKSTATION : RecipeTechRegistry.FORGE,
@@ -88,14 +110,15 @@ public class MagicalCrops extends MatItem {
         ));
       }
     } else if (seedType.equals("essence")) {
-      String formatted = Arrays.stream(resources.split(",")).map(s -> String.format("{%s, 1}", s))
-          .collect(Collectors.joining(", "));
-      Recipes.registerModRecipe(new Recipe(
-          getEssenceLocale(),
-          1,
-          tech,
-          ingredientsFromScript(String.format("{{%s, 8}, %s}", getPreviousTierEssenceLocale(), formatted))
-      ));
+      for (String resource : resources.split(",")) {
+        String[] parts = resource.split(":");
+        Recipes.registerModRecipe(new Recipe(
+            getEssenceLocale(),
+            1,
+            tech,
+            ingredientsFromScript(String.format("{{%s, 8}, {%s, %s}}", getPreviousTierEssenceLocale(), parts[0], parts.length > 1 ? parts[1] : 4))
+        ));
+      }
     }
   }
 
