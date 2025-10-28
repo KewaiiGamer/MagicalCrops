@@ -24,6 +24,11 @@ kew_quartz_seed=Semente Fragmento Gelo
 kew_slimeum_seed=Semente Slimeum
 kew_spiderite_seed=Semente Spiderite
 kew_tungsten_seed=Semente Tungstênio
+kew_demonic_seed=Semente Demoníaca
+kew_lifequartz_seed=Semente de Quartzo Vital
+kew_pearlescentdiamond_seed=Semente de Diamante Perolado
+kew_ruby_seed=Semente de Rubi
+kew_sapphire_seed=Semente de Safira
 
 [item]
 kew_copper_essence=Essência de Cobre
@@ -50,3 +55,8 @@ kew_quartz_essence=Essência de Fragmento de Gelo
 kew_slimeum_essence=Essência de Slimeum
 kew_spiderite_essence=Essência de Spiderite
 kew_tungsten_essence=Essência de Tungstênio
+kew_demonic_essence=Essência Demoníaca
+kew_lifequartz_essence=Essência Quartzo Vital
+kew_pearlescentdiamond_essence=Essência Diamante Perolado
+kew_ruby_essence=Essência Rubi
+kew_sapphire_essence=Essência Safira

@@ -126,7 +126,10 @@ public class MagicalCrops extends MatItem {
     if (seedType.equals("resource") || seedType.equals("any")) {
       if (resources == null) return;
       String formatted = Arrays.stream(resources.split(","))
-          .map(s -> String.format("{%s, 4}", s))
+          .map(s -> {
+            String[] parts = s.split(":");
+            return String.format("{%s, %s}", parts[0], parts.length > 1 ? parts[1] : 4);
+          })
           .collect(Collectors.joining(", "));
       Recipes.registerModRecipe(new Recipe(
           getSeedLocale(),

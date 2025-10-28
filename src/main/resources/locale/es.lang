@@ -24,6 +24,11 @@ kew_quartz_seed=Semilla de fragmento helado
 kew_slimeum_seed=Semilla de limo
 kew_spiderite_seed=Semilla de araña
 kew_tungsten_seed=Semilla de tungsteno
+kew_demonic_seed=Semilla demoníaca
+kew_lifequartz_seed=Semilla de cuarzo vital
+kew_pearlescentdiamond_seed=Semilla de diamante nacarado
+kew_ruby_seed=Semilla de rubí
+kew_sapphire_seed=Semilla de zafiro
 
 [item]
 kew_copper_essence=Esencia de Cobre
@@ -50,3 +55,8 @@ kew_quartz_essence=Esencia de fragmento helado
 kew_slimeum_essence=Esencia de limo
 kew_spiderite_essence=Esencia de spiderita
 kew_tungsten_essence=Esencia de tungsteno
+kew_demonic_essence=Esencia demoníaca
+kew_lifequartz_essence=Esencia de cuarzo vital
+kew_pearlescentdiamond_essence=Esencia de diamante nacarado
+kew_ruby_essence=Esencia de rubí
+kew_sapphire_essence=Esencia de zafiro

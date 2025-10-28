@@ -24,6 +24,11 @@ kew_quartz_seed=Graine d'éclat de givre
 kew_slimeum_seed=Graine de slimeum
 kew_spiderite_seed=Graine de spiderite
 kew_tungsten_seed=Graine de tungstène
+kew_demonic_seed=Graine démoniaque
+kew_lifequartz_seed=Graine de quartz de vie
+kew_pearlescentdiamond_seed=Graine de diamant nacré
+kew_ruby_seed=Graine de rubis
+kew_sapphire_seed=Graine de saphir
 
 [item]
 kew_copper_essence=Essence de Cuivre
@@ -50,3 +55,8 @@ kew_quartz_essence=Essence d'éclat de givre
 kew_slimeum_essence=Essence de slimeum
 kew_spiderite_essence=Essence de spiderite
 kew_tungsten_essence=Essence de tungstène
+kew_demonic_essence=Essence démoniaque
+kew_lifequartz_essence=Essence de quartz de vie
+kew_pearlescentdiamond_essence=Essence de diamant nacré
+kew_ruby_essence=Essence de rubis
+kew_sapphire_essence=Essence de saphir
