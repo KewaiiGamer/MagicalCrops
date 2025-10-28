@@ -55,13 +55,13 @@ public class Main {
   public void addCrop(String crop, int tier, String resources, String outputResources) {
     Tech tech = techFromTier(tier);
     Item.Rarity rarity = rarityFromTier(tier);
-    magicalCrops.add(new MagicalCrops(100, rarity, resources, outputResources, crop, seedTypeFromCrop(crop), tier, tech));
+    magicalCrops.add(new MagicalCrops(1000, rarity, resources, outputResources, crop, seedTypeFromCrop(crop), tier, tech));
   }
 
   public void addCrop(String crop, int tier) {
     Tech tech = techFromTier(tier);
     Item.Rarity rarity = rarityFromTier(tier);
-    magicalCrops.add(new MagicalCrops(100, rarity, String.format("%sbar", crop), String.format("%sore", crop), crop, seedTypeFromCrop(crop), tier, tech));
+    magicalCrops.add(new MagicalCrops(1000, rarity, String.format("%sbar", crop), String.format("%sore", crop), crop, seedTypeFromCrop(crop), tier, tech));
   }
 
   public Tech techFromTier(int tier) {
