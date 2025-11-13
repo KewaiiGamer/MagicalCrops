@@ -29,6 +29,9 @@ kew_lifequartz_seed=Semente de Quartzo Vital
 kew_pearlescentdiamond_seed=Semente de Diamante Perolado
 kew_ruby_seed=Semente de Rubi
 kew_sapphire_seed=Semente de Safira
+kew_clay_seed=Semente de Argila
+kew_omnicrystal_seed=Semente de Omni-Cristal
+kew_upgradeshard_seed=Semente de Fragmento de Atualização
 
 [item]
 kew_copper_essence=Essência de Cobre
@@ -60,3 +63,6 @@ kew_lifequartz_essence=Essência Quartzo Vital
 kew_pearlescentdiamond_essence=Essência Diamante Perolado
 kew_ruby_essence=Essência Rubi
 kew_sapphire_essence=Essência Safira
+kew_clay_essence=Essência de Argila
+kew_omnicrystal_essence=Essência Omni-Cystal
+kew_upgradeshard_essence=Essência de Fragmento de Atualização

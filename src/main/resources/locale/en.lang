@@ -30,6 +30,9 @@ kew_lifequartz_seed=Lifequartz Seed
 kew_pearlescentdiamond_seed=Pearlescent Diamond Seed
 kew_ruby_seed=Ruby Seed
 kew_sapphire_seed=Sapphire Seed
+kew_clay_seed=Clay Seed
+kew_omnicrystal_seed=Omni-Cystal Seed
+kew_upgradeshard_seed=Upgrade Shard Seed
 
 [item]
 kew_copper_essence=Copper Essence
@@ -62,3 +65,6 @@ kew_lifequartz_essence=Lifequartz Essence
 kew_pearlescentdiamond_essence=Pearlescent Diamond Essence
 kew_ruby_essence=Ruby Essence
 kew_sapphire_essence=Sapphire Essence
+kew_clay_essence=Clay Essence
+kew_omnicrystal_essence=Omni-Cystal Essence
+kew_upgradeshard_essence=Upgrade Shard Essence

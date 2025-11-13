@@ -29,6 +29,9 @@ kew_lifequartz_seed=生命石英种子
 kew_pearlescentdiamond_seed=珍珠光泽钻石种子
 kew_ruby_seed=红宝石种子
 kew_sapphire_seed=蓝宝石种子
+kew_clay_seed=粘土种子
+kew_omnicrystal_seed=万能水晶种子
+kew_upgradeshard_seed=升级碎片种子
 
 [item]
 kew_copper_essence=铜精华
@@ -60,3 +63,6 @@ kew_lifequartz_essence=生命石英精粹
 kew_pearlescentdiamond_essence=珍珠光泽钻石精粹
 kew_ruby_essence=红宝石精粹
 kew_sapphire_essence=蓝宝石精粹
+kew_clay_essence=粘土精华
+kew_omnicrystal_essence=万能水晶精华
+kew_upgradeshard_essence=升级碎片精华

@@ -23,6 +23,7 @@ public class Main {
     addCrop("water", 1, "watertile", "custom:bucket:1+kew_water_essence:8=watertile:1");
     addCrop("wood", 1, "anylog", "oaklog,sprucelog,pinelog,palmlog,willowlog,birchlog,maplelog");
     addCrop("stone", 1, "stone", "stone");
+    addCrop("clay", 1, "clay", "clay");
     addCrop("copper", 2);
     addCrop("iron", 2);
     addCrop("gold", 2);
@@ -45,9 +46,9 @@ public class Main {
     addCrop("ruby", 5, "ruby", "ruby:16");
     addCrop("emerald", 5, "emerald", "emerald:16");
     addCrop("sapphire", 5, "sapphire", "sapphire:16");
-    //addCrop("omnicrystal", 5, "omnicrystal", "omnicrystal:16");
+    addCrop("omnicrystal", 5, "omnicrystal", "omnicrystal:16");
     addCrop("pearlescentdiamond", 5, "pearlescentdiamond", "pearlescentdiamond:16");
-    //addCrop("upgradeshard", 5, "upgradeshard", "upgradeshard:16");
+    addCrop("upgradeshard", 5, "upgradeshard", "upgradeshard:16");
     for (MagicalCrops crop : magicalCrops) {
       crop.doInit();
     }

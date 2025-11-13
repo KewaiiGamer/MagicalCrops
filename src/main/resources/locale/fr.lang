@@ -29,6 +29,9 @@ kew_lifequartz_seed=Graine de quartz de vie
 kew_pearlescentdiamond_seed=Graine de diamant nacré
 kew_ruby_seed=Graine de rubis
 kew_sapphire_seed=Graine de saphir
+kew_clay_seed=Graine d'argile
+kew_omnicrystal_seed=Graine d'Omni-Cystal
+kew_upgradeshard_seed=Graine d'éclat d'amélioration
 
 [item]
 kew_copper_essence=Essence de Cuivre
@@ -60,3 +63,6 @@ kew_lifequartz_essence=Essence de quartz de vie
 kew_pearlescentdiamond_essence=Essence de diamant nacré
 kew_ruby_essence=Essence de rubis
 kew_sapphire_essence=Essence de saphir
+kew_clay_essence=Essence d'argile
+kew_omnicrystal_essence=Essence d'Omni-Cystal
+kew_upgradeshard_essence=Essence d'éclat d'amélioration
